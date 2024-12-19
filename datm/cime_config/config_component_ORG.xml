@@ -10,15 +10,12 @@
        This file may have atm desc entries.
   -->
   <description modifier_mode="1">
-    <desc atm="DATM[%QIA][%WISOQIA][%CRU][%CRUv7][%GSWP3v1][%ICONEXAMPLE][%ICONhistorical][%HCLIMhistorical][%MOSARTTEST][%NLDAS2][%CPLHIST][%1PT][%NYF][%IAF][%JRA][%JRA-1p4-2018][%JRA-RYF8485][%JRA-RYF9091][%JRA-RYF0304][%SIMPLE]"> Data driven ATM </desc>
+    <desc atm="DATM[%QIA][%WISOQIA][%CRU][%CRUv7][%GSWP3v1][%MOSARTTEST][%NLDAS2][%CPLHIST][%1PT][%NYF][%IAF][%JRA][%JRA-1p4-2018][%JRA-RYF8485][%JRA-RYF9091][%JRA-RYF0304][%SIMPLE]"> Data driven ATM </desc>
     <desc option="QIA"> QIAN data set </desc>
     <desc option="WISOQIA">QIAN with water isotopes</desc>
     <desc option="CRU"> CRUNCEP data set </desc>
     <desc option="CRUv7"> CLM CRU NCEP v7 data set </desc>
     <desc option="GSWP3v1"> GSWP3v1 data set </desc>
-    <desc option="ICONEXAMPLE"> ICON example data set </desc>
-    <desc option="ICONhistorical"> ICON+CNRM-ESM2-1 historical (1985-2014) </desc>
-    <desc option="HCLIMhistorical"> HCLIM historical (1985-2014) </desc>
     <desc option="NLDAS2"> NLDAS2 regional 0.125 degree data set over the U.S. (25-53N, 235-293E). WARNING: Garbage data will be produced for runs extending beyond this regional domain. </desc>
     <desc option="CPLHIST"> Coupler hist data set (in this mode, it is strongly recommended that the model domain and the coupler history forcing are on the same domain)</desc>
     <desc option="1PT">single point tower site data set </desc>
@@ -44,13 +41,13 @@
 
   <entry id="DATM_MODE">
     <type>char</type>
-    <valid_values>CORE2_NYF,CORE2_IAF,CLM_QIAN,CLM_QIAN_WISO,1PT,CLMCRUNCEP,CLMCRUNCEPv7,CLMGSWP3v1,CLMICONEXAMPLE,CLMICONhistorical,CLMHCLIMhistorical,CLMNLDAS2,CPLHIST,CORE_IAF_JRA,CORE_IAF_JRA_1p4_2018,ERA5,SIMPLE</valid_values>
+    <valid_values>CORE2_NYF,CORE2_IAF,CLM_QIAN,CLM_QIAN_WISO,1PT,CLMCRUNCEP,CLMCRUNCEPv7,CLMGSWP3v1,CLMNLDAS2,CPLHIST,CORE_IAF_JRA,CORE_IAF_JRA_1p4_2018,ERA5,SIMPLE</valid_values>
     <default_value>CORE2_NYF</default_value>
     <group>run_component_datm</group>
     <file>env_run.xml</file>
     <desc>Mode for data atmosphere component.
       CORE2_NYF (CORE2 normal year forcing) are modes used in forcing prognostic ocean/sea-ice components.
-      CLMCRUNCEPv7, CLMGSWP3v1, CLMICONEXAMPLE, CLMICONhistorical, CLMHCLIMhistorical, CLMNLDAS2 and 1PT are modes using observational data for forcing prognostic land components.
+      CLMCRUNCEPv7, CLMGSWP3v1, CLMNLDAS2 and 1PT are modes using observational data for forcing prognostic land components.
       WARNING for CLMNLDAS2: This is a regional forcing dataset over the U.S. (25-53N, 235-293E). Garbage data will be produced for runs extending beyond this regional domain. </desc>
     <values match="last">
       <value compset="DATM%NYF">CORE2_NYF</value>
@@ -61,9 +58,6 @@
       <value compset="DATM%WISOQIA">CLM_QIAN_WISO</value>
       <value compset="DATM%CRUv7">CLMCRUNCEPv7</value>
       <value compset="DATM%GSWP3v1">CLMGSWP3v1</value>
-      <value compset="DATM%ICONEXAMPLE">CLMICONEXAMPLE</value>
-      <value compset="DATM%ICONhistorical">CLMICONhistorical</value>
-      <value compset="DATM%HCLIMhistorical">CLMHCLIMhistorical</value>
       <value compset="DATM%NLDAS2">CLMNLDAS2</value>
       <value compset="DATM%1PT">1PT</value>
       <value compset="DATM%ERA5">ERA5</value>

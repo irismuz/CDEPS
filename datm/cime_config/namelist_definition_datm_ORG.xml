@@ -25,15 +25,6 @@
       <value datm_mode="CLMGSWP3v1">
         CLMGSWP3v1.Solar,CLMGSWP3v1.Precip,CLMGSWP3v1.TPQW
       </value>
-      <value datm_mode="CLMICONEXAMPLE">
-        CLMICONEXAMPLE.Solar,CLMICONEXAMPLE.Precip,CLMICONEXAMPLE.TPQW
-      </value>
-      <value datm_mode="CLMICONhistorical">
-        CLMICONhistorical.Solar,CLMICONhistorical.Precip,CLMICONhistorical.TPQW
-      </value>
-      <value datm_mode="CLMHCLIMhistorical">
-        CLMHCLIMhistorical.Solar,CLMHCLIMhistorical.Precip,CLMHCLIMhistorical.TPQW
-      </value>
       <value datm_mode="CLMNLDAS2">
         CLMNLDAS2.Solar,CLMNLDAS2.Precip,CLMNLDAS2.TPQW
       </value>

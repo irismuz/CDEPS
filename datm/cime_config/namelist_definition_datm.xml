@@ -32,7 +32,7 @@
         CLMICONhistorical.Solar,CLMICONhistorical.Precip,CLMICONhistorical.TPQW
       </value>
       <value datm_mode="CLMICONCNRMSSP370">
-        CLMICONCNRMSSP370.Solar,CLMICONCNRMSSP370.Precip,ICONCNRMSSP370.TPQW
+        CLMICONCNRMSSP370.Solar,CLMICONCNRMSSP370.Precip,CLMICONCNRMSSP370.TPQW
       </value>
       <value datm_mode="CLMICONNORESMhistorical">
         CLMICONNORESMhistorical.Solar,CLMICONNORESMhistorical.Precip,CLMICONNORESMhistorical.TPQW

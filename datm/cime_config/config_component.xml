@@ -67,7 +67,7 @@
       <value compset="DATM%GSWP3v1">CLMGSWP3v1</value>
       <value compset="DATM%ICONEXAMPLE">CLMICONEXAMPLE</value>
       <value compset="DATM%ICONhistorical">CLMICONhistorical</value>
-      <value compset="DATM%ICONCNRMSSP370">ICONCNRMSSP370</value>
+      <value compset="DATM%ICONCNRMSSP370">CLMICONCNRMSSP370</value>
       <value compset="DATM%ICONNORESMhistorical">CLMICONNORESMhistorical</value>
       <value compset="DATM%HCLIMhistorical">CLMHCLIMhistorical</value>
       <value compset="DATM%HCLIMCNRMhistorical">CLMHCLIMCNRMhistorical</value>

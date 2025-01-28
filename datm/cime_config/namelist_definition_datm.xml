@@ -31,8 +31,20 @@
       <value datm_mode="CLMICONhistorical">
         CLMICONhistorical.Solar,CLMICONhistorical.Precip,CLMICONhistorical.TPQW
       </value>
+      <value datm_mode="CLMICONCNRMSSP370">
+        CLMICONCNRMSSP370.Solar,CLMICONCNRMSSP370.Precip,ICONCNRMSSP370.TPQW
+      </value>
+      <value datm_mode="CLMICONNORESMhistorical">
+        CLMICONNORESMhistorical.Solar,CLMICONNORESMhistorical.Precip,CLMICONNORESMhistorical.TPQW
+      </value>
       <value datm_mode="CLMHCLIMhistorical">
         CLMHCLIMhistorical.Solar,CLMHCLIMhistorical.Precip,CLMHCLIMhistorical.TPQW
+      </value>
+      <value datm_mode="CLMHCLIMCNRMhistorical">
+        CLMHCLIMCNRMhistorical.Solar,CLMHCLIMCNRMhistorical.Precip,CLMHCLIMCNRMhistorical.TPQW
+      </value>
+      <value datm_mode="CLMHCLIMNORESMhistorical">
+        CLMHCLIMNORESMhistorical.Solar,CLMHCLIMNORESMhistorical.Precip,CLMHCLIMNORESMhistorical.TPQW
       </value>
       <value datm_mode="CLMNLDAS2">
         CLMNLDAS2.Solar,CLMNLDAS2.Precip,CLMNLDAS2.TPQW

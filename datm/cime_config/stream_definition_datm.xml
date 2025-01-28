@@ -643,7 +643,211 @@
     </stream_dtlimit>
     <stream_readmode>single</stream_readmode>
   </stream_entry>
+  
+  
+  <!-- ===================================  -->
+  <!-- datm_mode CLMICONCNRMSSP370  -->
+  <!-- ===================================  -->
 
+  <stream_entry name="CLMICONCNRMSSP370.Solar">
+    <stream_meshfile>
+      <meshfile>$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/wrf2clm_land_Arctic_0.1x0.1_PolarRES_ESMFMesh_c290924.nc</meshfile>
+    </stream_meshfile>
+    <stream_datafiles>
+      <file first_year="2015" last_year="2099">$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/ICONCNRMSSP370/Solar/Solar_ICONCNRMSSP370_%ym.nc</file>
+    </stream_datafiles>
+    <stream_datavars>
+      <var>rsds Faxa_swdn</var>
+    </stream_datavars>
+    <stream_lev_dimname>null</stream_lev_dimname>
+    <stream_mapalgo>
+      <mapalgo>bilinear</mapalgo>
+    </stream_mapalgo>
+    <stream_vectors>null</stream_vectors>
+    <stream_year_align>$DATM_YR_ALIGN</stream_year_align>
+    <stream_year_first>$DATM_YR_START</stream_year_first>
+    <stream_year_last>$DATM_YR_END</stream_year_last>
+    <stream_offset>0</stream_offset>
+    <stream_tintalgo>
+      <tintalgo>coszen</tintalgo>
+    </stream_tintalgo>
+    <stream_taxmode>
+      <taxmode>cycle</taxmode>
+    </stream_taxmode>
+    <stream_dtlimit>
+      <dtlimit>1.5</dtlimit>
+    </stream_dtlimit>
+    <stream_readmode>single</stream_readmode>
+  </stream_entry>
+
+  <stream_entry name="CLMICONCNRMSSP370.Precip">
+    <stream_meshfile>
+      <meshfile>$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/wrf2clm_land_Arctic_0.1x0.1_PolarRES_ESMFMesh_c290924.nc</meshfile>
+    </stream_meshfile>
+    <stream_datafiles>
+      <file first_year="2015" last_year="2099">$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/ICONCNRMSSP370/Precip/Prec_ICONCNRMSSP370_%ym.nc</file>
+    </stream_datafiles>
+    <stream_datavars>
+      <var>pr Faxa_precn</var>
+    </stream_datavars>
+    <stream_lev_dimname>null</stream_lev_dimname>
+    <stream_mapalgo>
+      <mapalgo>bilinear</mapalgo>
+    </stream_mapalgo>
+    <stream_vectors>null</stream_vectors>
+    <stream_year_align>$DATM_YR_ALIGN</stream_year_align>
+    <stream_year_first>$DATM_YR_START</stream_year_first>
+    <stream_year_last>$DATM_YR_END</stream_year_last>
+    <stream_offset>0</stream_offset>
+    <stream_tintalgo>
+      <tintalgo>nearest</tintalgo>
+    </stream_tintalgo>
+    <stream_taxmode>
+      <taxmode>cycle</taxmode>
+    </stream_taxmode>
+    <stream_dtlimit>
+      <dtlimit>1.5</dtlimit>
+    </stream_dtlimit>
+    <stream_readmode>single</stream_readmode>
+  </stream_entry>
+
+  <stream_entry name="CLMICONCNRMSSP370.TPQW">
+    <stream_meshfile>
+      <meshfile>$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/wrf2clm_land_Arctic_0.1x0.1_PolarRES_ESMFMesh_c290924.nc</meshfile>
+    </stream_meshfile>
+    <stream_datafiles>
+      <file first_year="2015" last_year="2099">$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/ICONCNRMSSP370/TPHWL/TPHWL_ICONCNRMSSP370_%ym.nc</file>
+    </stream_datafiles>
+    <stream_datavars>
+      <var>tas     Sa_tbot</var>
+      <var>wind     Sa_wind</var>
+      <var>huss     Sa_shum</var>
+      <var>ps     Sa_pbot</var>
+      <var>rlds     Faxa_lwdn</var>
+    </stream_datavars>
+    <stream_lev_dimname>null</stream_lev_dimname>
+    <stream_mapalgo>
+      <mapalgo>bilinear</mapalgo>
+    </stream_mapalgo>
+    <stream_vectors>null</stream_vectors>
+    <stream_year_align>$DATM_YR_ALIGN</stream_year_align>
+    <stream_year_first>$DATM_YR_START</stream_year_first>
+    <stream_year_last>$DATM_YR_END</stream_year_last>
+    <stream_offset>0</stream_offset>
+    <stream_tintalgo>
+      <tintalgo>linear</tintalgo>
+    </stream_tintalgo>
+    <stream_taxmode>
+      <taxmode>cycle</taxmode>
+    </stream_taxmode>
+    <stream_dtlimit>
+      <dtlimit>1.5</dtlimit>
+    </stream_dtlimit>
+    <stream_readmode>single</stream_readmode>
+  </stream_entry>
+  
+  
+  <!-- ===================================  -->
+  <!-- datm_mode CLMICONNORESMhistorical  -->
+  <!-- ===================================  -->
+
+  <stream_entry name="CLMICONNORESMhistorical.Solar">
+    <stream_meshfile>
+      <meshfile>$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/wrf2clm_land_Arctic_0.1x0.1_PolarRES_ESMFMesh_c290924.nc</meshfile>
+    </stream_meshfile>
+    <stream_datafiles>
+      <file first_year="1985" last_year="2014">$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/ICONNORESMhistorical/Solar/Solar_ICONNORESMhistorical_%ym.nc</file>
+    </stream_datafiles>
+    <stream_datavars>
+      <var>rsds Faxa_swdn</var>
+    </stream_datavars>
+    <stream_lev_dimname>null</stream_lev_dimname>
+    <stream_mapalgo>
+      <mapalgo>bilinear</mapalgo>
+    </stream_mapalgo>
+    <stream_vectors>null</stream_vectors>
+    <stream_year_align>$DATM_YR_ALIGN</stream_year_align>
+    <stream_year_first>$DATM_YR_START</stream_year_first>
+    <stream_year_last>$DATM_YR_END</stream_year_last>
+    <stream_offset>0</stream_offset>
+    <stream_tintalgo>
+      <tintalgo>coszen</tintalgo>
+    </stream_tintalgo>
+    <stream_taxmode>
+      <taxmode>cycle</taxmode>
+    </stream_taxmode>
+    <stream_dtlimit>
+      <dtlimit>1.5</dtlimit>
+    </stream_dtlimit>
+    <stream_readmode>single</stream_readmode>
+  </stream_entry>
+
+  <stream_entry name="CLMICONNORESMhistorical.Precip">
+    <stream_meshfile>
+      <meshfile>$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/wrf2clm_land_Arctic_0.1x0.1_PolarRES_ESMFMesh_c290924.nc</meshfile>
+    </stream_meshfile>
+    <stream_datafiles>
+      <file first_year="1985" last_year="2014">$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/ICONNORESMhistorical/Precip/Prec_ICONNORESMhistorical_%ym.nc</file>
+    </stream_datafiles>
+    <stream_datavars>
+      <var>pr Faxa_precn</var>
+    </stream_datavars>
+    <stream_lev_dimname>null</stream_lev_dimname>
+    <stream_mapalgo>
+      <mapalgo>bilinear</mapalgo>
+    </stream_mapalgo>
+    <stream_vectors>null</stream_vectors>
+    <stream_year_align>$DATM_YR_ALIGN</stream_year_align>
+    <stream_year_first>$DATM_YR_START</stream_year_first>
+    <stream_year_last>$DATM_YR_END</stream_year_last>
+    <stream_offset>0</stream_offset>
+    <stream_tintalgo>
+      <tintalgo>nearest</tintalgo>
+    </stream_tintalgo>
+    <stream_taxmode>
+      <taxmode>cycle</taxmode>
+    </stream_taxmode>
+    <stream_dtlimit>
+      <dtlimit>1.5</dtlimit>
+    </stream_dtlimit>
+    <stream_readmode>single</stream_readmode>
+  </stream_entry>
+
+  <stream_entry name="CLMICONNORESMhistorical.TPQW">
+    <stream_meshfile>
+      <meshfile>$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/wrf2clm_land_Arctic_0.1x0.1_PolarRES_ESMFMesh_c290924.nc</meshfile>
+    </stream_meshfile>
+    <stream_datafiles>
+      <file first_year="1985" last_year="2014">$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/ICONNORESMhistorical/TPHWL/TPHWL_ICONNORESMhistorical_%ym.nc</file>
+    </stream_datafiles>
+    <stream_datavars>
+      <var>tas     Sa_tbot</var>
+      <var>wind     Sa_wind</var>
+      <var>huss     Sa_shum</var>
+      <var>ps     Sa_pbot</var>
+      <var>rlds     Faxa_lwdn</var>
+    </stream_datavars>
+    <stream_lev_dimname>null</stream_lev_dimname>
+    <stream_mapalgo>
+      <mapalgo>bilinear</mapalgo>
+    </stream_mapalgo>
+    <stream_vectors>null</stream_vectors>
+    <stream_year_align>$DATM_YR_ALIGN</stream_year_align>
+    <stream_year_first>$DATM_YR_START</stream_year_first>
+    <stream_year_last>$DATM_YR_END</stream_year_last>
+    <stream_offset>0</stream_offset>
+    <stream_tintalgo>
+      <tintalgo>linear</tintalgo>
+    </stream_tintalgo>
+    <stream_taxmode>
+      <taxmode>cycle</taxmode>
+    </stream_taxmode>
+    <stream_dtlimit>
+      <dtlimit>1.5</dtlimit>
+    </stream_dtlimit>
+    <stream_readmode>single</stream_readmode>
+  </stream_entry>
+  
   <!-- ===================================  -->
   <!-- datm_mode CLMHCLIMhistorical  -->
   <!-- ===================================  -->
@@ -744,7 +948,210 @@
     </stream_dtlimit>
     <stream_readmode>single</stream_readmode>
   </stream_entry>
+  
+  <!-- ===================================  -->
+  <!-- datm_mode CLMHCLIMCNRMhistorical  -->
+  <!-- ===================================  -->
 
+  <stream_entry name="CLMHCLIMCNRMhistorical.Solar">
+    <stream_meshfile>
+      <meshfile>$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/wrf2clm_land_Arctic_0.1x0.1_PolarRES_ESMFMesh_c290924.nc</meshfile>
+    </stream_meshfile>
+    <stream_datafiles>
+      <file first_year="1985" last_year="2014">$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/HCLIMCNRMhistorical/Solar/Solar_HCLIMCNRMhistorical_%ym.nc</file>
+    </stream_datafiles>
+    <stream_datavars>
+      <var>rsds Faxa_swdn</var>
+    </stream_datavars>
+    <stream_lev_dimname>null</stream_lev_dimname>
+    <stream_mapalgo>
+      <mapalgo>bilinear</mapalgo>
+    </stream_mapalgo>
+    <stream_vectors>null</stream_vectors>
+    <stream_year_align>$DATM_YR_ALIGN</stream_year_align>
+    <stream_year_first>$DATM_YR_START</stream_year_first>
+    <stream_year_last>$DATM_YR_END</stream_year_last>
+    <stream_offset>0</stream_offset>
+    <stream_tintalgo>
+      <tintalgo>coszen</tintalgo>
+    </stream_tintalgo>
+    <stream_taxmode>
+      <taxmode>cycle</taxmode>
+    </stream_taxmode>
+    <stream_dtlimit>
+      <dtlimit>1.5</dtlimit>
+    </stream_dtlimit>
+    <stream_readmode>single</stream_readmode>
+  </stream_entry>
+
+  <stream_entry name="CLMHCLIMCNRMhistorical.Precip">
+    <stream_meshfile>
+      <meshfile>$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/wrf2clm_land_Arctic_0.1x0.1_PolarRES_ESMFMesh_c290924.nc</meshfile>
+    </stream_meshfile>
+    <stream_datafiles>
+      <file first_year="1985" last_year="2014">$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/HCLIMCNRMhistorical/Precip/Prec_HCLIMCNRMhistorical_%ym.nc</file>
+    </stream_datafiles>
+    <stream_datavars>
+      <var>pr Faxa_precn</var>
+    </stream_datavars>
+    <stream_lev_dimname>null</stream_lev_dimname>
+    <stream_mapalgo>
+      <mapalgo>bilinear</mapalgo>
+    </stream_mapalgo>
+    <stream_vectors>null</stream_vectors>
+    <stream_year_align>$DATM_YR_ALIGN</stream_year_align>
+    <stream_year_first>$DATM_YR_START</stream_year_first>
+    <stream_year_last>$DATM_YR_END</stream_year_last>
+    <stream_offset>0</stream_offset>
+    <stream_tintalgo>
+      <tintalgo>nearest</tintalgo>
+    </stream_tintalgo>
+    <stream_taxmode>
+      <taxmode>cycle</taxmode>
+    </stream_taxmode>
+    <stream_dtlimit>
+      <dtlimit>1.5</dtlimit>
+    </stream_dtlimit>
+    <stream_readmode>single</stream_readmode>
+  </stream_entry>
+
+  <stream_entry name="CLMHCLIMCNRMhistorical.TPQW">
+    <stream_meshfile>
+      <meshfile>$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/wrf2clm_land_Arctic_0.1x0.1_PolarRES_ESMFMesh_c290924.nc</meshfile>
+    </stream_meshfile>
+    <stream_datafiles>
+      <file first_year="1985" last_year="2014">$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/HCLIMCNRMhistorical/TPHWL/TPHWL_HCLIMCNRMhistorical_%ym.nc</file>
+    </stream_datafiles>
+    <stream_datavars>
+      <var>tas     Sa_tbot</var>
+      <var>wind     Sa_wind</var>
+      <var>huss     Sa_shum</var>
+      <var>ps     Sa_pbot</var>
+      <var>rlds     Faxa_lwdn</var>
+    </stream_datavars>
+    <stream_lev_dimname>null</stream_lev_dimname>
+    <stream_mapalgo>
+      <mapalgo>bilinear</mapalgo>
+    </stream_mapalgo>
+    <stream_vectors>null</stream_vectors>
+    <stream_year_align>$DATM_YR_ALIGN</stream_year_align>
+    <stream_year_first>$DATM_YR_START</stream_year_first>
+    <stream_year_last>$DATM_YR_END</stream_year_last>
+    <stream_offset>0</stream_offset>
+    <stream_tintalgo>
+      <tintalgo>linear</tintalgo>
+    </stream_tintalgo>
+    <stream_taxmode>
+      <taxmode>cycle</taxmode>
+    </stream_taxmode>
+    <stream_dtlimit>
+      <dtlimit>1.5</dtlimit>
+    </stream_dtlimit>
+    <stream_readmode>single</stream_readmode>
+  </stream_entry>
+  
+  
+  <!-- ===================================  -->
+  <!-- datm_mode CLMHCLIMNORESMhistorical  -->
+  <!-- ===================================  -->
+  
+  <stream_entry name="CLMHCLIMNORESMhistorical.Solar">
+    <stream_meshfile>
+      <meshfile>$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/wrf2clm_land_Arctic_0.1x0.1_PolarRES_ESMFMesh_c290924.nc</meshfile>
+    </stream_meshfile>
+    <stream_datafiles>
+      <file first_year="1985" last_year="2014">$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/HCLIMNORESMhistorical/Solar/Solar_HCLIMNORESMhistorical_%ym.nc</file>
+    </stream_datafiles>
+    <stream_datavars>
+      <var>rsds Faxa_swdn</var>
+    </stream_datavars>
+    <stream_lev_dimname>null</stream_lev_dimname>
+    <stream_mapalgo>
+      <mapalgo>bilinear</mapalgo>
+    </stream_mapalgo>
+    <stream_vectors>null</stream_vectors>
+    <stream_year_align>$DATM_YR_ALIGN</stream_year_align>
+    <stream_year_first>$DATM_YR_START</stream_year_first>
+    <stream_year_last>$DATM_YR_END</stream_year_last>
+    <stream_offset>0</stream_offset>
+    <stream_tintalgo>
+      <tintalgo>coszen</tintalgo>
+    </stream_tintalgo>
+    <stream_taxmode>
+      <taxmode>cycle</taxmode>
+    </stream_taxmode>
+    <stream_dtlimit>
+      <dtlimit>1.5</dtlimit>
+    </stream_dtlimit>
+    <stream_readmode>single</stream_readmode>
+  </stream_entry>
+
+  <stream_entry name="CLMHCLIMNORESMhistorical.Precip">
+    <stream_meshfile>
+      <meshfile>$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/wrf2clm_land_Arctic_0.1x0.1_PolarRES_ESMFMesh_c290924.nc</meshfile>
+    </stream_meshfile>
+    <stream_datafiles>
+      <file first_year="1985" last_year="2014">$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/HCLIMNORESMhistorical/Precip/Prec_HCLIMNORESMhistorical_%ym.nc</file>
+    </stream_datafiles>
+    <stream_datavars>
+      <var>pr Faxa_precn</var>
+    </stream_datavars>
+    <stream_lev_dimname>null</stream_lev_dimname>
+    <stream_mapalgo>
+      <mapalgo>bilinear</mapalgo>
+    </stream_mapalgo>
+    <stream_vectors>null</stream_vectors>
+    <stream_year_align>$DATM_YR_ALIGN</stream_year_align>
+    <stream_year_first>$DATM_YR_START</stream_year_first>
+    <stream_year_last>$DATM_YR_END</stream_year_last>
+    <stream_offset>0</stream_offset>
+    <stream_tintalgo>
+      <tintalgo>nearest</tintalgo>
+    </stream_tintalgo>
+    <stream_taxmode>
+      <taxmode>cycle</taxmode>
+    </stream_taxmode>
+    <stream_dtlimit>
+      <dtlimit>1.5</dtlimit>
+    </stream_dtlimit>
+    <stream_readmode>single</stream_readmode>
+  </stream_entry>
+
+  <stream_entry name="CLMHCLIMNORESMhistorical.TPQW">
+    <stream_meshfile>
+      <meshfile>$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/wrf2clm_land_Arctic_0.1x0.1_PolarRES_ESMFMesh_c290924.nc</meshfile>
+    </stream_meshfile>
+    <stream_datafiles>
+      <file first_year="1985" last_year="2014">$DIN_LOC_ROOT/PolarRES/RCM_forcing_files/HCLIMNORESMhistorical/TPHWL/TPHWL_HCLIMNORESMhistorical_%ym.nc</file>
+    </stream_datafiles>
+    <stream_datavars>
+      <var>tas     Sa_tbot</var>
+      <var>wind     Sa_wind</var>
+      <var>huss     Sa_shum</var>
+      <var>ps     Sa_pbot</var>
+      <var>rlds     Faxa_lwdn</var>
+    </stream_datavars>
+    <stream_lev_dimname>null</stream_lev_dimname>
+    <stream_mapalgo>
+      <mapalgo>bilinear</mapalgo>
+    </stream_mapalgo>
+    <stream_vectors>null</stream_vectors>
+    <stream_year_align>$DATM_YR_ALIGN</stream_year_align>
+    <stream_year_first>$DATM_YR_START</stream_year_first>
+    <stream_year_last>$DATM_YR_END</stream_year_last>
+    <stream_offset>0</stream_offset>
+    <stream_tintalgo>
+      <tintalgo>linear</tintalgo>
+    </stream_tintalgo>
+    <stream_taxmode>
+      <taxmode>cycle</taxmode>
+    </stream_taxmode>
+    <stream_dtlimit>
+      <dtlimit>1.5</dtlimit>
+    </stream_dtlimit>
+    <stream_readmode>single</stream_readmode>
+  </stream_entry>
+  
   <!-- ===================================  -->
   <!-- datm_mode CLMCRUNCEPv7               -->
   <!-- ===================================  -->
